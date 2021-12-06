@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section > nav {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+section > nav > a {
+    padding: 20px 20px;
+    text-align: center;
+    background: linear-gradient(0deg, #2F62BB 0%, #5E82CB 100%);
+    font-size: 16pt;
+    color: white;
+    width: 100%;
+}
+
+section > h1 {
+    font-size: 24pt;
+    margin-left: 60px;
+    text-transform: uppercase;
+    color: #0070C0;
+}

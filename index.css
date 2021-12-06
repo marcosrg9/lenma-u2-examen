@@ -1,0 +1,27 @@
+/*
+    Parte correspondiente al cuerpo
+*/
+
+#articulos-img_cards {
+    /* display: none; */
+    display: flex;
+    grid-template-columns: minmax(120px, 1fr);
+}
+
+#articulos-img_cards > article {
+    width: 100%;
+    padding: 17px;
+}
+
+#articulos-img_cards > article > img {
+    width: 100%;
+    margin: -8px;
+}
+
+#articulos-img_cards > :nth-child(1) > ol {
+    list-style-type: upper-roman;
+}
+
+/*
+    Pie de página
+*/

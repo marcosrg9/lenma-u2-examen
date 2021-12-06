@@ -1,0 +1,10 @@
+article {
+    padding: 10px;
+    border-bottom: 1px solid rgba(0, 112, 192, .5);
+}
+
+article > h1 {
+    font-size: 24pt;
+    color: #0070C0;
+    margin: 10px 0px;
+}

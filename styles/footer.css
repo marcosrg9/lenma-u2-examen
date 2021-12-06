@@ -1,0 +1,28 @@
+footer {
+    background: #2C679C;
+    /* height: fit-content; */
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer > div {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+footer > div > h4 {
+    margin: 5px 0px;
+}
+
+footer > div > img {
+    width: 40px;
+    margin: 0px 10px;
+}
+
+footer > h2 {
+    color: white;
+}

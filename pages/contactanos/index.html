@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1><span>asir1</span>Vender</h1>
+        <img src="../../assets/img/banner-informatica.jpg">
+        <nav>
+            <a href="../../index.html"><div>Inicio</div></a>
+            <a href="../ofertas/index.html"><div>Ofertas</div></a>
+            <a href="../blog/index.html"><div>Blog</div></a>
+            <a href="../contactanos/index.html"><div>Contáctanos</div></a>
+        </nav>
+    </header>
+
+    <section>
+        <div id="contacto">
+            <div>
+                <img src="/assets/img/contacto/correo.png">
+                <a href="mailto:asir1vender@iesvelez.com">asir1vender@iesvelez.com</a>
+            </div>
+            <div>
+                <img src="/assets/img/contacto/localizacion.png">
+                <p>Avd. Examen asir 2.<br>Ecija (España) 11111</p>
+            </div>
+            <div>
+                <img src="/assets/img/contacto/telefono.png">
+                <p>123-45-67-89</p>
+            </div>
+        </div>
+
+        <form>
+            <h1>Contacto</h1>
+            <table>
+                <!-- Fila nombre -->
+                <tr>
+                    <td><label for="nombre">Nombre:</label></td>
+                    <td>
+                        <input type="text" placeholder="Nombre" id="nombre">
+                        <input type="text" placeholder="Apellidos">
+                    </td>
+                </tr>
+
+                <!-- Fila email -->
+                <tr>
+                    <td><label for="correo">Email:</label></td>
+                    <td>
+                        <input type="email" placeholder="correo@correo.net" id="correo">
+                    </td>
+                </tr>
+
+                <!-- Fila teléfono -->
+                <tr>
+                    <td><label for="telef">Teléfono:</label></td>
+                    <td>
+                        <input type="tel" placeholder="777-77-77-77" id="telef">
+                    </td>
+                </tr>
+
+                <!-- Fila tema mensaje -->
+                <tr>
+                    <td><label for="tema">Tema mensaje:</label></td>
+                    <td>
+                        <select id="tema" value="Otro">
+                            <option>Problema con la compra</option>
+                            <option>Problema con el envío</option>
+                            <option>Producto no encontrado</option>
+                            <option>Sugerencia</option>
+                            <option>Otro</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!-- Fila mensaje -->
+                <tr>
+                    <td><label for="msg">Mensaje:</label></td>
+                    <td>
+                        <textarea id="msg">Introduzca el mensaje</textarea>
+                    </td>
+                </tr>
+
+                <!-- Fila botón enviar -->
+                <tr id="submit">
+                    <td colspan="2">
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </section>
+    
+    <footer>
+        <div>
+            <h4>Síguenos en:</h4>
+            <img src="../../assets/img/redesSociales/facebook.png">
+            <img src="../../assets/img/redesSociales/gorjeo.png">
+            <img src="../../assets/img/redesSociales/instagram.png">
+            <img src="../../assets/img/redesSociales/pinterest.png">
+            <img src="../../assets/img/redesSociales/skype.png">
+            <img src="../../assets/img/redesSociales/youtube.png">
+        </div>
+
+        <h2>Desarrollado por Marcos Rodríguez Yélamo</h2>
+    </footer>
+
+</body>
